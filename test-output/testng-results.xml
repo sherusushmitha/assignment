@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9111" started-at="2022-07-01T11:22:29Z" finished-at="2022-07-01T11:22:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9111" started-at="2022-07-01T11:22:29Z" finished-at="2022-07-01T11:22:38Z">
+      <class name="Fullstack.assenment$Assugnment">
+        <test-method status="PASS" signature="firstPOST(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:Fullstack.assenment$Assugnment@6833ce2c]" name="firstPOST" duration-ms="4823" started-at="2022-07-01T16:52:29Z" data-provider="postData" finished-at="2022-07-01T16:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sushma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Warangal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPOST -->
+        <test-method status="PASS" signature="firstPUT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:Fullstack.assenment$Assugnment@6833ce2c]" name="firstPUT" duration-ms="1442" started-at="2022-07-01T16:52:34Z" data-provider="putData" depends-on-methods="Fullstack.assenment$Assugnment.firstPOST" finished-at="2022-07-01T16:52:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HYD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[manu@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[34567]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPUT -->
+        <test-method status="PASS" signature="firstDELETE(java.lang.String)[pri:0, instance:Fullstack.assenment$Assugnment@6833ce2c]" name="firstDELETE" duration-ms="1442" started-at="2022-07-01T16:52:35Z" data-provider="deleteData" depends-on-methods="Fullstack.assenment$Assugnment.firstPUT" finished-at="2022-07-01T16:52:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstDELETE -->
+        <test-method status="PASS" signature="anotherGET(java.lang.String)[pri:0, instance:Fullstack.assenment$Assugnment@6833ce2c]" name="anotherGET" duration-ms="1380" started-at="2022-07-01T16:52:36Z" data-provider="deleteData" depends-on-methods="Fullstack.assenment$Assugnment.firstDELETE" finished-at="2022-07-01T16:52:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sushma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherGET -->
+      </class> <!-- Fullstack.assenment$Assugnment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
